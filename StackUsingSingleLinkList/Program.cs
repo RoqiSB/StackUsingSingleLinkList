@@ -75,8 +75,14 @@ namespace StackUsingSingleLinkList
                         s.push(num);
                         break;
                     case '2':
+                        if (s.empty())
+                        {
+                            Console.WriteLine("\nStack empty");
+                            break;
+                        }
+                        s.pop();
+                        break;
 
-                }
             }
         }
 
