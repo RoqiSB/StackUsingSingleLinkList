@@ -15,7 +15,7 @@ namespace StackUsingSingleLinkList
     class stack
     {
         node top;
-        public Stack()
+        public stack()
         {
             top = null;
         }
@@ -26,5 +26,13 @@ namespace StackUsingSingleLinkList
             else
                 return (false);
         }
+        public void push(int element)
+        {
+            node fresh;
+            fresh = new node(element, null);
+
+
+        }
+
     }
 }
